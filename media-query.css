@@ -1,0 +1,75 @@
+@media screen and (max-width : 768px){
+    .navbar{
+        width: 768px;
+        overflow: hidden;
+    }
+    #location-icon{
+        margin-left: 200px;
+    }
+    select{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+    #location-icon{
+        margin-left: 150px;
+    }
+    #user{
+        font-size: 30px;
+        margin-left: 40px
+    }
+    #cart{
+        margin-left: 40px;
+    }
+    input{
+        margin-left: 40px;
+        width: 200px;
+    }
+    h1{
+        font-size: large;
+    }
+    .banner{
+        width: 768px;
+    }
+    .container{
+        width: 768px;
+    }
+    /* .product{
+        width: 150px;
+        height: 200px;
+    } */
+    .review-box{
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+        font-size: small;
+
+    }
+    #icon{
+        margin-left: 70px;
+    }
+
+}
+@media  screen and (max-width:320px) {
+    body{
+        width: 320px;
+    }
+
+    .happy-customer{
+        height: 30px;
+        width: 280px;
+        font-size: medium;
+        font-weight: light;
+
+    }
+    .review{
+        width: 320px;
+    }
+    .review-box{
+        width: 50px;
+        height: 55px;
+        margin: 5px;
+        font-size: xx-small;
+    }
+}
